@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>SoundCloud Music Search</title>
-  <link rel="stylesheet" href="styles.css">
-  <meta name=viewport content=width=device-width, initial-scale=1>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1>Really Awesome Music Site</h1>
-    </header>
-    <section class="player">
-      <audio class="music-player" controls="controls" src=""></audio>
-    </section>
-    <section class="search">
-      <form class="search-form">
-
-      </form>
-    </section>
-    <section class="results"></section>
-  </div>
-  <script src="main.js"></script>
-</body>
+  <head>
+    <meta charset='utf-8'>
+    <title>AuralCumulonimbus</title>
+    <link rel='stylesheet' href='./css/styles.css'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  </head>
+  <body>
+    <div class="container">
+      <div class='logo'>
+        <h1>AuralCumulonimbus</h1>
+      </div>
+      <div class="player">
+        <audio class="music-player" controls="true" src="" data-url="2342">
+        </audio>
+      </div>
+      <div class="search-wrapper">
+        <form class="search-form" action="index.html" method="post">
+          <input type="text" class="searchform" name="search" value="" placeholder="Search artist">
+        </form>
+      </div>
+    </div>
+    <div class="results"></div>
+    <script type='text/javascript' src="./javascript/secret.js" charset="utf-8"></script>
+    <script type='text/javascript' src='./javascript/main.js'></script>
+  </body>
 </html>
